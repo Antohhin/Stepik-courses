@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "main"
+version = "0.1.0"
+description = "testing and training tasks from courses"
+authors = ["Your Name <you@example.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+scipy = { version = "^1.10.1", markers = "python_version < '3.13'" }
+numpy = "^1.24.3"
+pandas = "^2.0.2"
+seaborn = "^0.12.2"
+scikit-learn = "^1.2.2"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
